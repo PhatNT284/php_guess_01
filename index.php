@@ -21,11 +21,11 @@
       {
         echo("Your guess is not a number");
       }
-      else if ($_GET['guess']<42)
+      else if ($_GET['guess']<15)
       {
         echo("Your guess is too low");
       }
-      else if ($_GET['guess']>42)
+      else if ($_GET['guess']>15)
       {
         echo("Your guess is too high");
       }
